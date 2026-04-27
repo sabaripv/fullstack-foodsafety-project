@@ -1,3 +1,5 @@
+Food Safety Complaint & Inspection Management System
+
 Overview
 
 A web-based system to register and manage food safety complaints. It allows users to report issues, while admins and inspectors handle inspections and track resolutions efficiently.
