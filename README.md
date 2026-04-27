@@ -32,6 +32,6 @@ cd frontend
 npm install
 npm start
 
-Purpose
+Purpose:
 
 To simplify complaint handling, reduce manual work, and improve transparency.
