@@ -1,37 +1,47 @@
 Food Safety Complaint & Inspection Management System
 
-Overview
+Overview:
 
-A web-based system to register and manage food safety complaints. It allows users to report issues, while admins and inspectors handle inspections and track resolutions efficiently.
+A web-based platform to register and manage food safety complaints. It helps users report issues easily and allows authorities to handle inspections and track resolutions in a more organized way.
 
 Tech Stack:
-Django, Django REST Framework
-React
-JWT Authentication
-SQLite / PostgreSQL
-Features
-Complaint registration with image upload
-Status tracking (Pending / Assigned / Resolved)
-Inspector assignment & report submission
+
+Backend: Django, Django REST Framework
+Frontend: React
+Auth: JWT
+Database: SQLite / PostgreSQL
+
+Features:
+
+User registration & login
+Submit complaints with image evidence
+Track complaint status (Pending / Assigned / Resolved)
+Admin assigns inspectors
+Inspectors submit reports
 Role-based access (Admin / Inspector / User)
-Secure REST APIs
+Secure REST API
+
+Workflow:
+
+User logs in and submits a complaint
+Admin assigns it to an inspector
+Inspector updates the inspection report
+Status gets updated and user can track it
 
 Setup:
-# Backend
+
+Backend:
 git clone <https://github.com/sabaripv/fullstack-foodsafety-project.git>
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-# Frontend
-cd frontend
-npm install
-npm start
+Frontend:
 cd frontend
 npm install
 npm start
 
 Purpose:
 
-To simplify complaint handling, reduce manual work, and improve transparency.
+To reduce manual work, improve transparency, and make complaint handling faster and easier.
